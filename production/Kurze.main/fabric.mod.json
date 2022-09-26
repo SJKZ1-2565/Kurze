@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "kurze",
+  "version": "2.0.0",
+  "name": "kurze",
+  "description": "Kurze",
+  "authors": [
+    "SJKZ1"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+  "icon": "assets/kurze/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sjkz1.kurze.Client"
+    ],
+    "main": [
+      "com.sjkz1.kurze.Kurze"
+    ]
+  },
+  "mixins": [
+    "kurze.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}
